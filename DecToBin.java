@@ -1,8 +1,8 @@
 import java.util.*;
-class Binary
+class DecToBin
 {
     int n;
-    Binary()
+    DecToBin()
     {
         Scanner sc=new Scanner(System.in);
         n=sc.nextInt();
@@ -20,7 +20,7 @@ class Binary
     }
     public static void main()
     {
-        Binary obj=new Binary();
+        DecToBin obj=new DecToBin();
         obj.convert();
     }
 }

@@ -12,7 +12,7 @@ class SystemConv
     }
     void dectobin()
     {
-        Binary obj2=new Binary();
+        DecToBin obj2=new DecToBin();
         obj2.convert();
     }
     public static void main()
