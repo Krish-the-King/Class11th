@@ -1,8 +1,8 @@
 import java.util.*;
-class Decimal
+class BinToDec
 {
     long n;
-    Decimal()
+    BinToDec()
     {
         Scanner sc=new Scanner(System.in);
         n=sc.nextLong();
@@ -20,7 +20,7 @@ class Decimal
     }
     public static void main()
     {
-        Decimal obj=new Decimal();
+        BinToDec obj=new BinToDec();
         obj.convert();
     }
 }

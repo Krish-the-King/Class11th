@@ -23,7 +23,7 @@ class GoldBach
             }
         }
         if(temp==51)
-        return(100000);
+        return(0);
         else
         return(x);
     }
